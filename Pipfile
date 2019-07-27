@@ -18,6 +18,17 @@ blackcellmagic = "*"
 [packages]
 category-encoders = "*"
 plotly = "*"
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+black = "*"
+seaborn = "*"
+blackcellmagic = "*"
+xgboost = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
