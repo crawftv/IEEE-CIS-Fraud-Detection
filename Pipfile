@@ -11,13 +11,28 @@ numpy = "*"
 scikit-learn = "*"
 black = "==19.3b0"
 seaborn = "*"
-matplotlib = "*"
 pandas-profiling = "*"
 blackcellmagic = "*"
 
 [packages]
 category-encoders = "*"
 plotly = "*"
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+black = "*"
+seaborn = "*"
+blackcellmagic = "*"
+xgboost = "*"
+kaggle = "*"
+tld = "*"
+matplotlib = "==3.0.3"
+bayesian-optimization = "*"
+lightgbm = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
